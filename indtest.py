@@ -3,7 +3,7 @@ import pandas as pd
 import pandas_datareader.data as web
 import numpy as np
 import csv
-import math
+import math 
 
 '''
 data = []
