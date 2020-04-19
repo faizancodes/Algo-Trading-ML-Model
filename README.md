@@ -4,5 +4,6 @@ The goal of this project is to identify optimal buy, sell, and hold points for a
 
 The main class - MLAlgoStrat.py - loads the daily price data of a stock from a specified start date and end date (see SPYMLDataset.csv) and includes values from various technical indicators such as the moving averages, exponential moving averages, RSI, and more. 
 
-To provide the machine learning model with training data, I manually identified buy, sell, and hold points for SPY (see SPYClassifiedBuyPoints.csv) to feed into a Random Forest model.  
+In order to train the machine learning model, I manually identified buy, sell, and hold points for SPY (see SPYClassifiedBuyPoints.csv) and fed the data into a Random Forest model.  
 
+The program can also be used to test user-defined algorithmic trading strategies, and view each trade and its performance metrics.
